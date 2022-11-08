@@ -1,0 +1,8 @@
+{
+  "extension": ["ts"],
+  "project": "tsconfig.json",
+  "spec": "./test/**/*.spec.ts",
+  "require": ["ts-node/register", "tsconfig-paths/register", "dotenv/config"],
+  "ui": "bdd",
+  "timeout": 200000000
+}
